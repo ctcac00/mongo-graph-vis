@@ -1,0 +1,11 @@
+{
+    "id": "605370e7f9dec40041a4c098",
+    "name": "mongodb-atlas",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "RealmCluster",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

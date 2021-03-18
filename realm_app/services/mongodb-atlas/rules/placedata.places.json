@@ -1,0 +1,33 @@
+{
+    "collection": "places",
+    "database": "placedata",
+    "id": "6053711ce151b38cba36e9e0",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "name": {
+                "bsonType": "string"
+            },
+            "part_of": {
+                "bsonType": "string"
+            },
+            "type": {
+                "bsonType": "string"
+            }
+        },
+        "title": "place"
+    }
+}

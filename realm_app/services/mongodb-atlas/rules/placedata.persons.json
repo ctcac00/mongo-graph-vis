@@ -1,0 +1,33 @@
+{
+    "collection": "persons",
+    "database": "placedata",
+    "id": "60537113a1181359f9be1afa",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "born_in": {
+                "bsonType": "string"
+            },
+            "fullname": {
+                "bsonType": "string"
+            },
+            "lives_in": {
+                "bsonType": "string"
+            }
+        },
+        "title": "person"
+    }
+}
