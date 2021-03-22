@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>React graph vis</h1>
+      <h1>MongoDB Graph Vis</h1>
       <div style={{
         display: 'flex',
         flexDirection: 'column'
