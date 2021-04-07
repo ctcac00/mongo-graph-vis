@@ -15,7 +15,7 @@ exports = async function (payload, response) {
 
   var place_pipeline = [{$match: {
   $text: {
-    $search: 'Portugal'
+    $search: data.placeName
   }
 }}, {$graphLookup: {
   from: 'places',
